@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: inter;
+}
+
+.banner {
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: Merriweather;
+}
+
+.banner-bg {
+    background-image: url(./assets/Banner\ Image.png);
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+}
+.banner-shadow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0, .5);
+}
+.banner-title {
+    font-size: 50px;
+    color: #fff;
+    width: 500px;
+    text-align: center;
+    z-index: 2;
+}
+
+.discount {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+}
+
+.welcome {
+    padding-left: 200px;
+    padding-right: 200px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.welcome-title {
+    color: #fff;
+    font-size: 80px;
+}
+
+.welcome-subtitle {
+    color: gray;
+    font-size: 15px;
+    width: 500px;
+    margin: 25px 0;
+}
+
+.welcome-bg {
+    background-image: url(./assets/Vectorrr.png);
+    height: 600px;
+    width: 100%;
+    padding: 0 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+}
+
+.join-btn {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.join {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.event-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+    border-radius: 25px;
+    background-image: linear-gradient(to bottom, pink , white);
+}
+
+.join-btn-solid {
+    text-decoration: none;
+    background: red;
+    color: #fff;
+    padding: 8px 20px;
+    margin: 25px 0;
+    border-radius: 6px;
+}
+
+.offer {
+    padding-left: 200px;
+    padding-right: 200px;
+
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.offer-container-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.offer-img-middle, .offer-container-left, .offer-container-right {
+    width: 33.333%;
+}
+
+.offer-img-container {
+    border-radius: 50%;
+    padding: 15px;
+    border: 15px solid red;
+}
+
+.holiday {
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: 50px 0;
+}
+
+.holiday-top {
+    text-align: center;
+}
+
+.holiday-img-container {
+    width: 100%;
+    /* height: 500px; */
+
+}
+
+.holiday-img-top {
+    display: flex;
+}
+
+.holiday-img-bottom {
+    width: 100%;
+}
+
+.products {
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: 50px 0;
+}
+
+.product-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+.product-item {
+    /* height: 400px; */
+    width: 100%;
+}
+
+.subscribe {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.subscribe-wrapper {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+.form-control {
+    display: flex;
+    margin: 25px 0;
+}
+
+.subscribe-input {
+    border: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 10px;
+    width: 250px;
+}
+
+.subscribe-submit-btn {
+    border: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 10px 10px;
+    letter-spacing: 1px;
+    background-color: red;
+    color: #fff;
+    font-size: 10px;
+}
+
+footer {
+    padding: 100px 200px;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-top: gray solid 1px;
+    border-bottom: gray solid 1px;
+}
+.socials {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
